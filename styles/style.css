@@ -53,8 +53,8 @@ input
 logo
 {
     font-family:'roboto bold';
-    font-size:24px;
-    color:#F9FAF9
+    font-size:6vh;
+    color:#E5E7EB;
 }
 
 nav
@@ -197,10 +197,11 @@ footer
     color:#F8FAF9;
     background-color:#1F2937;
     font-family: 'roboto thin';
-    font-size:5vh;
+    font-size:3vh;
     text-align:center;
+    padding:0.8vw;
 }
 footer:before
 {
-    content:'footer'
+    content:'huakai travel'
 }
