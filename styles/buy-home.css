@@ -1,5 +1,31 @@
+tag-line
+{
+    display:block;
+    font-family:'roboto bold';
+    font-size:5vh;
+    text-align: center;
+    margin:1vw;
+}
+main
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 info
 {
+    background-color:#E5E7EB;
+    border:solid 2px black;
+    border-radius:0.5vw;
     color:black;
     font-family:'roboto regular';
+    width:40%;
+    margin:2vw;
+}
+
+.buy-image
+{
+    height:10vh;
+    width:10vw;
 }
