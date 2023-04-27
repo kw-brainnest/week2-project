@@ -154,10 +154,12 @@ article
 {
     background-color:#E5E7EB;
     font-family: 'roboto light italic';
-    font-size:36px;
+    font-size:3vw;
     color:#1F2937;
     text-align: center;
     height:20vh;
+    padding-top:2vw;
+    padding-bottom:4vw;
 }
 
 section
