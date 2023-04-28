@@ -1,0 +1,19 @@
+.newsletter
+{
+    border:solid 2px orange;
+    border-radius:0.5vw;
+    font-family:'roboto regular';
+    width:40vw;
+    height:20vh;
+    margin-bottom:2vw;
+}
+
+.newsletter-name
+{
+    width:20vw;
+}
+
+.newsletter-email
+{
+    width:20vw;
+}
