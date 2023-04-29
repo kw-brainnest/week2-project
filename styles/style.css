@@ -147,10 +147,9 @@ figcaption
     border-radius:0.3vw;
     height:8vw;
     width:8vw;
-
 }
 
-article
+.quote
 {
     background-color:#E5E7EB;
     font-family: 'roboto light italic';
@@ -162,10 +161,16 @@ article
     padding-bottom:4vw;
 }
 
-section
+.button
 {
     display:flex;
     justify-content: center;
+}
+
+.offer
+{
+    display:flex;
+    align-items: center;
 }
 
 action
@@ -187,11 +192,13 @@ call
 {
     display:block;
     font-size:3vh;
+    text-align:left;
 }
 
 signup
 {
     font-size:1.5vh;
+    text-align:left;
 }
 
 footer
@@ -206,4 +213,59 @@ footer
 footer:before
 {
     content:'huakai travel'
+}
+
+@media screen and (max-width:600px)
+{
+    .header-section
+    {
+        flex-direction:column;
+    }
+
+    .header-image
+    {
+        margin:1vw;
+        width:50vw;
+    }
+
+    input
+    {
+        width:20vw;
+    }
+
+    main
+    {
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .figure-image
+    {
+        height:15vw;
+        width:15vw;
+    }
+
+    .quote
+    {
+        margin:8vh;
+        padding:5vw;
+        height:11vh;
+    }
+
+    action
+    {
+        flex-direction:column;
+        width:73vw;
+    }
+
+    call
+    {
+        text-align:center;
+    }
+
+    .offer 
+    {
+        display:flex;
+        justify-content: center;
+    }
 }
